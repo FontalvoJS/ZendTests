@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #333333;
+    --secondary-color: #fda45a;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+.navbar {
+    background-color: var(--primary-color);
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.hero {
+    background: linear-gradient(rgba(27, 27, 27, 0.8), rgba(36, 36, 36, 0.8)), url('https://images.unsplash.com/photo-1487180144351-b8472da7d491?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.btn-custom {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.btn-custom:hover {
+    background-color: #e6c200;
+    color: var(--primary-color);
+}
+.feature-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+.card {
+    transition: transform 0.3s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+}
+.social-icon {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-right: 15px;
+}
